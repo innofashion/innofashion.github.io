@@ -1,0 +1,48 @@
+.drug_container {
+    text-align: center;
+    height: auto;
+}
+
+.drug_h1 {
+    text-align: center;
+}
+
+.drug_form {
+    position: relative;
+    left: -50%;
+    background-color: #ececec;
+    width: 35em;
+    overflow: auto;
+}
+
+.drug_options {
+    white-space: nowrap;
+    text-align: left;
+    margin: auto;
+}
+
+.drug_questions {
+    font-size: 2em;
+}
+
+.drug_container {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.drug_sentence_container {
+    display: block;
+    text-align: center;
+    size: auto;
+    height: 65em;
+    margin-top: 25em;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.drug_btn {
+    height: 3em;
+    width: 5em;
+}

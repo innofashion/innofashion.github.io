@@ -1,1 +1,135 @@
-hello github
+<!-- <php error_reporting(0);?> -->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="http://wfashion.top">
+    <title>Welcome friend!</title>
+    <style type="text/css">
+    body {
+        background-color: white;
+        overflow: hidden;
+    }
+    </style>
+</head>
+<!-- id="b" -->
+
+<body>
+    <!-- **************************loading****************************************** -->
+    <div id="loading">
+        <!-- <div class="loaddiv">
+            <span></span>
+            <p class="loadingp">test</p>
+         </div>-->
+        <div class="loader">
+            <div class="text"></div>
+            <div class="horizontal">
+                <div class="circlesup">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="circlesdwn">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div class="verticalloading">
+                <div class="circlesup">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="circlesdwn">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***********************navigation************************* -->
+    <div id="navdiv">
+        <ul class="navul" style="overflow: visible;">
+            <li class="navli" style="float:left"><a href="#" onclick="skip_home()">Home</a></li>
+            <!-- <li class="navli" style="float:left"><a href="#" onclick="skip(this)">Download</a></li> -->
+            <div class="navli dropdown">
+                <a href="#">Demo</a>
+                <!-- <div class="dropdown-content"> -->
+                <!--                     <a class="item" href="#" onclick="skip(this)">fire</a>
+                    <a class="item" href="#" onclick="skip(this)">skybox</a>
+                    <a class="item" href="#" onclick="skip(this)">blurs</a>
+                    <a class="item" href="#" onclick="skip(this)">drug</a>
+                </div> -->
+            </div>
+            <li class="navli" style="float:right"><a href="#popup">About</a></li>
+        </ul>
+    </div>
+    <!-- ******************page********************** -->
+    <div id='main_div'>
+        <canvas id="main_page"></canvas>
+    </div>
+    <!-- *********************bgm player***************************-->
+    <div style="display: none;">
+        <audio id="adplay" autoplay loop>
+            <source src="src/bgm0.mp3" type="audio/ogg">
+            <source src="src/bgm0.mp3" type="audio/mpeg"> 您的浏览器不支持 audio 元素。
+        </audio>
+    </div>
+    <!--********************music************-->
+    <div class="bottom">
+        <a id="music" class="bt-sound" onclick="mstop()">
+            <span><img src="equalizer.gif" alt="" ></span>
+        </a>
+    </div>
+    <!-- **********************popup******************** -->
+    <div class="container">
+        <div class="popup" id="popup">
+            <div class="popup-inner">
+                <div class="popup__photo">
+                    <img src="about.jpg" alt="">
+                </div>
+                <div class="popup__text">
+                    <h1>How are you</h1>
+                    <p>https://www.toutiao.com/c/user/92980616841/
+                        <br>https://space.bilibili.com/430365884</p>
+                </div>
+                <a class="popup__close" href="#">X</a>
+            </div>
+        </div>
+    </div>
+    <!-- ****************************************************** -->
+    <link rel="stylesheet" type="text/css" href="css/nav_css.css">
+    <link rel="stylesheet" type="text/css" href="css/music.css">
+    <link rel="stylesheet" href="css/pup_style.css">
+    <link rel="stylesheet" href="css/loading2.css">
+    <link rel="stylesheet" href="css/cikonss.css" />
+    <link rel="stylesheet" type="text/css" href="css/file.css">
+    <script type="text/javascript" src="js/skip.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/mustop.js"></script>
+    <!-- <script type="text/javascript" src="js/filedownload.js"></script> -->
+    <script src="jquery-ui/js/jquery-1.10.2.js"></script>
+    <script src="jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
+    <script src="jquery-ui/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" type="text/css" />
+    <script src="js/pixel.js"></script>
+    <script src="js/three.js"></script>
+    <script src="js/controls/OrbitControls.js"></script>
+    <script src="js/libs/stats.min.js"></script>
+    <script src="js/libs/dat.gui.min.js"></script>
+    <!-- *************windowonload should be odered to the last -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

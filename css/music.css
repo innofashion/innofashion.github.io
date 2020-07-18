@@ -1,0 +1,120 @@
+.bottom {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    overflow: hidden;
+    z-index: 300;
+}
+
+.bottom .bt-artist {
+    color: #686868;
+    font: normal normal 10px/18px Montserrat;
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    height: 18px
+}
+
+.bottom .bt-artist b {
+    font-weight: 400;
+    color: #fff
+}
+
+.bottom .bt-sound {
+    width: 28px;
+    height: 12px;
+    float: left;
+    position: relative;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.bottom .bt-sound span {
+    overflow: hidden;
+    display: inline-block;
+    width: 28px;
+    height: 10px;
+    line-height: 0;
+    font-size: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: height 250ms
+}
+
+.bottom .bt-sound span img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.bottom .bt-sound.disabled span {
+    height: 2px
+}
+
+.bottom-socials {
+    position: fixed;
+    bottom: 30px;
+    left: 40px;
+    overflow: hidden;
+    z-index: 300
+}
+
+.bottom-socials a {
+    float: left;
+    margin-right: 16px
+}
+
+.bottom-socials .bt-in svg,
+.bottom-socials .bt-tw svg {
+    width: 16px;
+    height: 16px
+}
+
+.bottom-socials .bt-fb svg {
+    width: 14px;
+    height: 13px
+}
+
+.mobile .bottom {
+    bottom: 15px;
+    right: 15px
+}
+
+.mobile .bottom-socials {
+    bottom: 15px;
+    left: 15px
+}
+
+
+
+/*******************/
+
+
+/*a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: none;
+}*/
+
+.bottom .bt-sound span {
+    overflow: hidden;
+    display: inline-block;
+    width: 28px;
+    height: 10px;
+    line-height: 0;
+    font-size: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: height 250ms;
+}
+
+.bottom .bt-sound span img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

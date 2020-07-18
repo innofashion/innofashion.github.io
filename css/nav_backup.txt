@@ -1,0 +1,16 @@
+   <!-- ***********************navigation************************* -->
+    <div id="navdiv">
+        <ul class="navul">
+            <li class="navli" style="float:left"><a href="http://wfashion.top">Host</a></li>
+            <li class="navli" style="float:left"><a href="file.php">Download</a></li>
+            <li class="navli dropdown" style="float:left">
+                <a href="#contact">Demo</a>
+                <div class="dropdown-content">
+                    <a class="item" href="fire.html">fire</a>
+                    <a class="item" href="#">Á´½Ó 2</a>
+                    <a class="item" href="#">Á´½Ó 3</a>
+                </div>
+            </li>
+            <li class="navli" style="float:right"><a href="#popup">About</a></li>
+        </ul>
+    </div>
